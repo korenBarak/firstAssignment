@@ -19,7 +19,7 @@ GET http://localhost:3000/posts/6741b7720a270ec3d5875114
 
 ###
 
-GET http://localhost:3000/posts/sender/someSenderId
+GET http://localhost:3000/posts/sender=/someSenderId
 
 ###
 
