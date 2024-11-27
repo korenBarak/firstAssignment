@@ -29,3 +29,35 @@ Content-Type: application/json
 {
     "content": "new content"
 }
+
+###
+
+POST http://localhost:3000/comments
+Content-Type: application/json
+
+{
+    "postId": "2",
+    "message": "Here is my comment",
+    "senderId": "1"
+}
+
+###
+
+GET http://localhost:3000/comments
+
+###
+
+GET http://localhost:3000/comments/2
+
+###
+
+DELETE  http://localhost:3000/comments/674624a98092baae4ea92062
+
+###
+
+PUT http://localhost:3000/comments/674624a98092baae4ea92061
+Content-Type: application/json
+
+{
+    "message": "new content"
+}

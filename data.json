@@ -1,0 +1,27 @@
+[
+  {
+    "postId": "1",
+    "senderId": "2",
+    "message": "hello"
+  },
+  {
+    "postId": "1",
+    "senderId": "1",
+    "message": "hello you"
+  },
+  {
+    "postId": "2",
+    "senderId": "3",
+    "message": "wow"
+  },
+  {
+    "postId": "2",
+    "senderId": "2",
+    "message": "wow wow"
+  },
+  {
+    "postId": "2",
+    "senderId": "1",
+    "message": "nice"
+  }
+]
